@@ -26,5 +26,13 @@
   "bugs": {
     "url": "https://github.com/danigb/music.transpose/issues"
   },
-  "homepage": "https://github.com/danigb/music.transpose#readme"
+  "homepage": "https://github.com/danigb/music.transpose#readme",
+  "devDependencies": {
+    "teoria": "^2.1.1",
+    "vows": "^0.8.1"
+  },
+  "dependencies": {
+    "music.notation": "file:../notation",
+    "music.operator": "file:../operator"
+  }
 }
