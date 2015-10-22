@@ -1,6 +1,6 @@
 {
   "name": "music.transpose",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Music transposition made easy",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/danigb/music.transpose#readme",
   "devDependencies": {
+    "benchmark": "^1.0.0",
     "teoria": "^2.1.1",
     "vows": "^0.8.1"
   },
