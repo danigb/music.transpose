@@ -15,10 +15,10 @@ var op = require('music.operator')
  */
 function transpose (interval, pitch) {
   if (arguments.length === 1) return function (p) { return transpose(interval, p) }
-  if (!interval || !pitch) return null
 
   var i = notation.arr(interval)
   var p = notation.arr(pitch)
+  if (!i || !p) return null
   if (i.length === 3) return notation.str(op.add(i, p))
   else if (p.length === 3) return notation.str(op.add(p, i))
   else return null
